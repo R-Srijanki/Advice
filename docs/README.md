@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [solution URL here](https://www.frontendmentor.io/solutions/responsive-using-css-flex-copy-advice-Bt-9gtONx9)
+- Live Site URL: [live site URL here](https://r-srijanki.github.io/Advice/)
 
 ## My process
 
@@ -83,6 +83,6 @@ In future projects, I want to:
 
 ## Author
 
-- Website - [R-Srijanki](https://r-srijanki.github.io/Advice/)
+- Website - [R-Srijanki](https://github.com/R-Srijanki)
 - Frontend Mentor - [@R-Srijanki](https://www.frontendmentor.io/profile/R-Srijanki)
 
