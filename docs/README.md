@@ -83,6 +83,6 @@ In future projects, I want to:
 
 ## Author
 
-- Website - [R-Srijanki](https://www.your-site.com)
+- Website - [R-Srijanki](https://r-srijanki.github.io/Advice/)
 - Frontend Mentor - [@R-Srijanki](https://www.frontendmentor.io/profile/R-Srijanki)
 
