@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Advice generator app</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <link rel="stylesheet" href="/advice-generator-app-main/output.css">
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body class="bg-[#1f2632] font-[Manrope]">
+  <main class="h-[90vh] flex items-center justify-center flex-col border-2 text-lg sm:text-2xl md:text-3xl">
+    <section>
+      <p id="error"></p>
+    </section>
+    <section class="bg-[#313a49] flex flex-col justify-center items-center relative ml-4 mr-4 p-8 rounded-xl max-w-md shadow-md text-center" id="box">
+      <h2 id="slipid" class="m-2 text-green-300 text-xs sm:text-sm md:text-lg"></h2>
+      <p id="advices" class="m-3 font-extrabold text-white"></p>
+      <img src="images/pattern-divider-desktop.svg" alt="divider" class="hidden m-6" id="desdivider">
+      <img src="images/pattern-divider-mobile.svg" alt="divider" class="hidden m-6" id="mobdivider">
+      <button type="button" id="but"><img src="images/icon-dice.svg" alt="dice icon" class="bg-green-300 rounded shadow-[0_0_20px_3px_rgba(82,255,168,1)] absolute bottom-0 left-1/2 translate-y-1/2 -translate-x-1/2 hover:scale-3d" id="dice"></button>
+      
+    </section>
+      <div id="load" class="hidden">
+        <i class="fa-solid fa-spinner text-white mt-4 translate-y-1/2"></i>
+      </div>
+      <button id="copy" class="translate-y-1/2 underline text-white text-sm hidden">Copy Advice</button>
+      <span id="copied" class="text-green-300 text-sm mt-2 hidden translate-y-1/2">Copied!</span>
+    </main>
+  
+  <footer class="attribution h-[10%]">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Janki</a>.
+  </footer>
+  <script src="index.js"></script>
+</body>
+</html>
+<!--in HTML learnt how to make element at bottom center in between border also practiced to add/embed new font into html-->
